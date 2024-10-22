@@ -20,7 +20,7 @@ import Button from '@mui/material/Button'
 import Error from "./pages/ErrorComponent/Error";
 const server = {
   local: "http://localhost:5000",
-  production: "https://wgxjjo-5000.csb.app",
+  production: "http://localhost:5000",
 };
 
 function App() {

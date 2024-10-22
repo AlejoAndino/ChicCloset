@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 dotenv.config();
 // mongodb://localhost:27017/
-var localUri = "mongodb://127.0.0.1:27017/test"
+var localUri = "mongodb://localhost:27017/"
 var { DB_URI } =process.env || { DB_URI: localUri }
 
 export const connect = async () => {
