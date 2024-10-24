@@ -17,7 +17,7 @@ export const connect = async () => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
-    console.log("connect to mogodb local ")
+    console.log("connect to mogodb locall ")
   }
 
 }
